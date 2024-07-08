@@ -1,6 +1,6 @@
 import React from 'react'
 import './slideshow.css'
-import SimpleSlider from './componentes/SimpleSlider/SimpleSlider'
+import SimpleSlider from '../SimpleSlider/SimpleSlider'
 
 const Slideshow = () => {
  
