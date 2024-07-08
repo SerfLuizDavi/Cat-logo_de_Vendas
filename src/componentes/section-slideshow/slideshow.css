@@ -16,8 +16,8 @@ section{
         justify-content: center;
         vertical-align: center;
         transform: translateX(0%);
-        background-color: black;
-        color: white;
+        /* background-color: black;*/
+        color: black;
     }
 }
 
