@@ -1,20 +1,15 @@
 import React from "react";
-import {Swiper , SwiperSlide} from 'swiper/react';
-import {Navigation, Pagination} from 'swiper';
-import Bazul from ".src/assets/Roupas/Fig1.jpeg;";
-import BPret from "./src/assets/Roupas/Fig2.jpeg";
-import BNike from "./src/assets/Roupas/Fig3.jpeg";
-import BList from "./src/assets/Roupas/Fig4.jpeg";
-import 'swiper/css';
-import 'swiper/css/navigation'
-import 'swiper/css/pagination'
-/* import Slider from "react-slick"; */
+import Bazul from '../../assets/Roupas/Fig1.jpeg'
+import Bpret from '../../assets/Roupas/Fig2.jpeg'
+import Bnike from '../../assets/Roupas/Fig3.jpeg'
+import Blist from '../../assets/Roupas/Fig4.jpeg'
+import Slider from "react-slick"
 import './SimpleSlider.css';
 
  const SimpleSlider = () => {
-
-  const slides = {Bazul, BPret, BNike, BList};
-  /*
+  
+  const slides = {Bazul, Bpret, Bnike, Blist};
+  
   var settings = {
     bool:true,
     dots: true,
@@ -23,16 +18,8 @@ import './SimpleSlider.css';
     slidesToShow: 1,
     slidesToScroll: 1,
   };
-*/
+
   return (
-    <Swiper>
-      {slides.map(slide => {
-        <SwiperSlide>
-          <img src = {slides} alt={slides}></img>
-        </SwiperSlide>
-      })}
-    </Swiper>
-    /*
     <Slider {...settings}>
       <div>
         <h3 className="A">1</h3>
@@ -53,7 +40,7 @@ import './SimpleSlider.css';
         <h3 className="F">6</h3>
       </div>
       </Slider>
-      */
+  
   )
 }
 

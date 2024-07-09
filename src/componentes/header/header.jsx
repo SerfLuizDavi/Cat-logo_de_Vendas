@@ -1,10 +1,11 @@
 import React from 'react'
 import './header.css'
+import Logo from '../../assets/Icon-Bar/Visual art.png'
 
 const Header = () => {
   return (
     <header>
-        <img src="./src/assets/Icon-bar/Visual art.png" alt="logo_tipo" />
+        <img src={Logo} alt="logo_tipo" />
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>

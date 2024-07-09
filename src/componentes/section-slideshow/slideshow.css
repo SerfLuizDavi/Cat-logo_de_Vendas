@@ -3,23 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 section{
+    margin-top: 550px;
     position: absolute;
     height: 650px;
     width: 100%;
-    
-    & .conteiner{
-        margin-top: 80px;
-        height: 500px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        vertical-align: center;
-        transform: translateX(0%);
-        /* background-color: black;*/
-        color: black;
-    }
 }
+
 
 
 

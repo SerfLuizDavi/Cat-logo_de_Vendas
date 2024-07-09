@@ -6,9 +6,7 @@ const Slideshow = () => {
  
   return (
    <section>
-    <div className="conteiner">
-      <SimpleSlider/>
-    </div>
+    <SimpleSlider/>
    </section>
   )
 }

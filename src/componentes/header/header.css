@@ -13,17 +13,18 @@ body{
 header{
 
     position: fixed;
-    width: 80vw;
+    width: 100%;
     left: 50%;
     transform: translate(-50%);
     display: grid;
     align-items: center;
-    grid-template-columns: 30% 70%;
-    gap: 100px;
+    grid-template-columns: 40% 60%;
+    gap: 10px;
     z-index: 2;
 
    
     & img {
+        margin-left: 100px;
         width: 150px;
     }
 
@@ -31,7 +32,6 @@ header{
         & ul {
             display: grid;
             grid-template-columns: repeat(4, 25%);
-            gap: 20px;
 
         }
     }
